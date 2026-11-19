@@ -1,19 +1,21 @@
-# Ali. — Página de Inicio E-Commerce (Implementación con Material UI)
+# Ali. — Tienda Online Minimalista (Implementación con Material UI)
 
-Implementación frontend de la página principal de la tienda de decoración y objetos minimalistas **Ali.**, desarrollada con **React**, **Vite** y **Material UI (MUI)**.
+Prototipo funcional de la página de inicio para la tienda de decoración **Ali.**, desarrollado con **React**, **Vite** y **Material UI (MUI)**.
 
 ---
 
 ## 1. Biblioteca de Componentes Seleccionada
-Se eligió **Material UI (MUI)** por su sistema de tematización centralizado (`ThemeProvider`), su cuadrícula responsiva (`Grid`, `Container`) y su catálogo de componentes predefinidos (`AppBar`, `Card`, `Button`, `Divider`, `Badge`) que facilitan mantener la consistencia visual con el prototipo de Figma.
+Se ha seleccionado **Material UI (MUI)** (`@mui/material`) por su consistencia visual, su sistema de tematización centralizado (`ThemeProvider` + `createTheme`) y su colección de componentes responsivos listos para producción.
 
 ---
 
-## 2. Requisitos Previos e Instalación
+## 2. Requisitos e Instalación
 
-Asegúrate de tener instalado **Node.js** (v18 o superior) y **npm**.
+Para ejecutar este proyecto en local necesitas tener instalado **Node.js** (v18 o superior) y **npm**.
 
-1. Descarga o descomprime el proyecto y abre una terminal en la carpeta raíz.
-2. Instala las dependencias del proyecto:
+### Pasos para ejecutar la aplicación:
+
+1. **Descomprimir el proyecto** y abrir una terminal en la carpeta raíz (`ali-ecommerce`).
+2. **Instalar las dependencias** del proyecto ejecutando:
    ```bash
    npm install
